@@ -9,11 +9,13 @@ const App=()=>{
         <Navbar />
         <Welcome />
       </div>
-      <Services />
-      <Transactions />
+      <div className="py-20">
+        <Services />
+      </div>
+      <div className="py-20">
+        <Transactions />
+      </div>
       <Footer />
-      
-
     </div>
   )
 }
