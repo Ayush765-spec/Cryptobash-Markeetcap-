@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { ethers } from "ethers";
 
-import { contractABI, contractAddress } from "../../utils/constants";
+import { contractABI, contractAddress } from "../utils/constants";
 import { TransactionContext } from "./TransactionContext";
 
 const createEthereumContract = async () => {
