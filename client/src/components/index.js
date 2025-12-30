@@ -1,7 +1,7 @@
-export {deafult as Loader} from './Loader'
-export {deafult as Navbar} from './Navbar'
-export {deafult as Footer} from './Footer'
-export {deafult as Welcome} from './Welcome'
-export {deafult as Transactions} from './Transactions'
-export {deafult as Services} from './Services'
+export {default as Loader} from './Loader'
+export {default as Navbar} from './Navbar'
+export {default as Footer} from './Footer'
+export {default as Welcome} from './Welcome'
+export {default as Transactions} from './Transactions'
+export {default as Services} from './Services'
 
