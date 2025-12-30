@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "test3",
+=======
+  "name": "smart_contract",
+>>>>>>> 4c32b1d32a34cb177f494169cdc6f553004a39ff
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "chai": "^4.3.4",
@@ -18,3 +23,11 @@
     "hardhat": "^2.8.0"
   }
 }
+=======
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  },
+  "type": "module"
+}
+
+>>>>>>> 4c32b1d32a34cb177f494169cdc6f553004a39ff

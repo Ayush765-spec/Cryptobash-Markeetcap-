@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
@@ -162,3 +163,9 @@ export const TransactionsProvider = ({ children }) => {
     </TransactionContext.Provider>
   );
 };
+=======
+import React from "react";
+
+// Keep this file minimal — export only the context itself so fast-refresh can operate correctly
+export const TransactionContext = React.createContext();
+>>>>>>> 4c32b1d32a34cb177f494169cdc6f553004a39ff

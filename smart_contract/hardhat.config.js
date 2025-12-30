@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('@nomiclabs/hardhat-waffle');
 
 module.exports = {
@@ -9,3 +10,16 @@ module.exports = {
     },
   },
 };
+=======
+require("@nomicfoundation/hardhat-toolbox");
+
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: "0.8.24",
+  networks: {
+    hardhat: {},
+  },
+};
+
+
+>>>>>>> 4c32b1d32a34cb177f494169cdc6f553004a39ff
